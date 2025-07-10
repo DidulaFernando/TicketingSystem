@@ -1,0 +1,89 @@
+/* Main container for components side by side */
+.container {
+  display: flex;
+  justify-content: space-between; /* Ensures even spacing between boxes */
+  gap: 2%; /* Space between the boxes */
+  padding: 2%; /* Padding around the container */
+  height: 90vh; /* Current height for the container */
+  box-sizing: border-box;
+  flex-wrap: nowrap; /* Keep boxes in a single row */
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #EEEEEE;
+  color: black;
+  width: 100%;
+  height: 10%; /* Keep the header height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 3vw; /* Dynamically adjust font size */
+  box-shadow: 3px 5px 6px rgba(169, 169, 169, 0.6);
+}
+
+/* Styling for each box */
+.box {
+  background-color: #f4f4f4;
+  padding: 2%; /* Add padding inside the boxes */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Allow boxes to share space dynamically */
+  min-width: 250px; /* Ensure a minimum width for smaller screens */
+  height: 100%; /* Default height for most boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top inside the box */
+  box-sizing: border-box; /* Include padding and borders in box sizing */
+}
+
+/* Specific styling for the first box (Enter Configuration Component) */
+.container .box:first-child {
+  height: 200%; /* Twice as tall as the other boxes */
+}
+
+/* For components (configuration, live update, log viewer) inside the boxes */
+app-configuration, app-live-update, app-log-viewer {
+  width: 100%; /* Full width of the parent box */
+  height: 100%; /* Full height of the parent box */
+  overflow: hidden;
+  box-sizing: border-box; /* Adjust box size correctly */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack boxes vertically on smaller screens */
+    gap: 5%; /* Increase spacing between stacked boxes */
+    height: auto; /* Allow container height to adjust naturally */
+  }
+
+  .box {
+    width: 100%; /* Make each box take 100% of the width */
+    height: auto; /* Adjust box height based on content */
+  }
+
+  .container .box:first-child {
+    height: auto; /* Allow dynamic height for configuration box on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 5vw; /* Further reduce font size on very small screens */
+    height: auto; /* Adjust header height on small screens */
+  }
+
+  .box {
+    height: auto; /* Adjust dynamically based on content */
+    padding: 5%; /* Add spacing inside the box */
+  }
+
+  .container .box:first-child {
+    height: auto; /* Allow dynamic height for configuration box on very small screens */
+  }
+}

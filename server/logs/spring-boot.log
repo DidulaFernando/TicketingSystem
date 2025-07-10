@@ -1,0 +1,1166 @@
+2024-12-11 00:47:11 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 24632 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 00:47:11 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 24632 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 00:47:11 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 00:47:11 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 00:47:11 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 00:47:11 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 00:47:11 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 00:47:11 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 00:47:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 00:47:12 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 00:47:12 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 00:47:12 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 00:47:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 00:47:12 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 901 ms
+2024-12-11 00:47:12 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 00:47:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 00:47:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-11 00:47:12 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.564 seconds (process running for 6.475)
+2024-12-11 00:47:12 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.564 seconds (process running for 6.475)
+2024-12-11 00:47:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 00:47:58 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 00:47:58 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-11 00:47:58 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@b50bbdb
+2024-12-11 00:47:58 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@b50bbdb
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 2. Remaining tickets to release: 98
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 2. Remaining tickets to release: 98
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 6. Remaining tickets to release: 94
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 6. Remaining tickets to release: 94
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 10. Remaining tickets to release: 90
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 10. Remaining tickets to release: 90
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 15. Remaining tickets to release: 85
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 15. Remaining tickets to release: 85
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 16. Remaining tickets to release: 84
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 16. Remaining tickets to release: 84
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 14
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 14
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 10
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 10
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 8
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 8
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 6
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 6
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 2
+2024-12-11 00:47:58 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 2
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 6. Remaining tickets to release: 80
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 6. Remaining tickets to release: 80
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 11. Remaining tickets to release: 75
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 11. Remaining tickets to release: 75
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 13. Remaining tickets to release: 73
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 13. Remaining tickets to release: 73
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 17. Remaining tickets to release: 69
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 17. Remaining tickets to release: 69
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 18. Remaining tickets to release: 68
+2024-12-11 00:47:59 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 18. Remaining tickets to release: 68
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 21. Remaining tickets to release: 65
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 21. Remaining tickets to release: 65
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 19
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 19
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 14
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 14
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 15. Remaining tickets to release: 64
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 15. Remaining tickets to release: 64
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 20. Remaining tickets to release: 59
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 20. Remaining tickets to release: 59
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 16
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 16
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 13
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 13
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 8
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 8
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 11. Remaining tickets to release: 56
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 11. Remaining tickets to release: 56
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 16. Remaining tickets to release: 51
+2024-12-11 00:48:00 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 16. Remaining tickets to release: 51
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 20. Remaining tickets to release: 47
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 20. Remaining tickets to release: 47
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 25. Remaining tickets to release: 42
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 25. Remaining tickets to release: 42
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 26. Remaining tickets to release: 41
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 26. Remaining tickets to release: 41
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 29. Remaining tickets to release: 38
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 29. Remaining tickets to release: 38
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 33. Remaining tickets to release: 34
+2024-12-11 00:48:01 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 33. Remaining tickets to release: 34
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 32
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 32
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 27
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 27
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 26
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 26
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 21
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 21
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 18
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 18
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 21. Remaining tickets to release: 31
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 21. Remaining tickets to release: 31
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 24. Remaining tickets to release: 28
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 24. Remaining tickets to release: 28
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 28. Remaining tickets to release: 24
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 28. Remaining tickets to release: 24
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 33. Remaining tickets to release: 19
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 33. Remaining tickets to release: 19
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 37. Remaining tickets to release: 15
+2024-12-11 00:48:02 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 37. Remaining tickets to release: 15
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 38. Remaining tickets to release: 14
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 38. Remaining tickets to release: 14
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 42. Remaining tickets to release: 10
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 42. Remaining tickets to release: 10
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 44. Remaining tickets to release: 8
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 44. Remaining tickets to release: 8
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 46. Remaining tickets to release: 6
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 46. Remaining tickets to release: 6
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 50. Remaining tickets to release: 2
+2024-12-11 00:48:03 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 50. Remaining tickets to release: 2
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 49
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 49
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 46
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 46
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 41
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 41
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 36
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 36
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 35
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 35
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 37. Remaining tickets to release: 0
+2024-12-11 00:48:04 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 37. Remaining tickets to release: 0
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 32
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 32
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 31
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 31
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 27
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 27
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 24
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 24
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 21
+2024-12-11 00:48:06 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 21
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 17
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 17
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 12
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 12
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 11
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 11
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 7
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 7
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 4
+2024-12-11 00:48:08 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 4
+2024-12-11 00:48:10 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 1
+2024-12-11 00:48:10 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 1
+2024-12-11 00:48:10 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 00:48:10 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 00:48:10 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 00:48:10 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 00:48:10 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 00:48:10 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 00:48:14 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 00:48:14 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 00:48:49 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 00:48:49 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-11 01:05:31 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 22668 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:05:31 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 22668 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:05:31 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:05:31 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:05:31 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:05:31 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:05:31 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:05:31 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:05:32 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:05:32 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-12-11 01:05:32 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:05:32 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:05:32 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:05:32 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 01:05:32 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:05:32 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 972 ms
+2024-12-11 01:05:32 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-11 01:05:32 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-11 01:05:32 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11 01:05:32 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-11 01:08:04 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 27120 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:08:04 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 27120 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:08:04 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:08:04 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:08:04 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:08:04 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:08:04 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:08:04 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:08:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:08:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-12-11 01:08:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:08:05 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:08:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:08:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 01:08:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:08:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1103 ms
+2024-12-11 01:08:06 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-12-11 01:08:06 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-11 01:08:06 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11 01:08:06 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-12-11 01:09:42 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 31804 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:09:42 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 31804 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:09:42 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:09:42 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:09:42 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:09:42 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:09:42 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:09:42 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:09:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:09:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:09:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:09:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 01:09:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:09:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+2024-12-11 01:09:43 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:09:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:09:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-11 01:09:43 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.439 seconds (process running for 2.114)
+2024-12-11 01:09:43 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.439 seconds (process running for 2.114)
+2024-12-11 01:09:43 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:09:43 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:09:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:09:48 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:09:48 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:09:48 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@46634ced
+2024-12-11 01:09:48 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@46634ced
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 4. Remaining tickets to release: 96
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 4. Remaining tickets to release: 96
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 2
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 2
+2024-12-11 01:09:48 WARN  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:09:48 WARN  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 1
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 1
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:09:48 WARN  org.example.server.model.TicketPool - Customer-1 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:09:48 WARN  org.example.server.model.TicketPool - Customer-1 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 4. Remaining tickets to release: 92
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 4. Remaining tickets to release: 92
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 5. Remaining tickets to release: 91
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 5. Remaining tickets to release: 91
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 8. Remaining tickets to release: 88
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 8. Remaining tickets to release: 88
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 9. Remaining tickets to release: 87
+2024-12-11 01:09:48 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 9. Remaining tickets to release: 87
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 14. Remaining tickets to release: 82
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 14. Remaining tickets to release: 82
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 16. Remaining tickets to release: 80
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 16. Remaining tickets to release: 80
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 17. Remaining tickets to release: 79
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 17. Remaining tickets to release: 79
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 19. Remaining tickets to release: 77
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 19. Remaining tickets to release: 77
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 20. Remaining tickets to release: 76
+2024-12-11 01:09:49 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 20. Remaining tickets to release: 76
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 17
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 17
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 15
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 15
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 20. Remaining tickets to release: 71
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 20. Remaining tickets to release: 71
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 18
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 18
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 16
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 16
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 15
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 15
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 20. Remaining tickets to release: 66
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 20. Remaining tickets to release: 66
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 25. Remaining tickets to release: 61
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 25. Remaining tickets to release: 61
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 29. Remaining tickets to release: 57
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 29. Remaining tickets to release: 57
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 32. Remaining tickets to release: 54
+2024-12-11 01:09:50 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 32. Remaining tickets to release: 54
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 33. Remaining tickets to release: 53
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 33. Remaining tickets to release: 53
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 36. Remaining tickets to release: 50
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 36. Remaining tickets to release: 50
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 41. Remaining tickets to release: 45
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 41. Remaining tickets to release: 45
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 43. Remaining tickets to release: 43
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 43. Remaining tickets to release: 43
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 47. Remaining tickets to release: 39
+2024-12-11 01:09:51 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 47. Remaining tickets to release: 39
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 44
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 44
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 39
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 39
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 38
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 38
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 37
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 37
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 34
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 34
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 35. Remaining tickets to release: 38
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 35. Remaining tickets to release: 38
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 37. Remaining tickets to release: 36
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 37. Remaining tickets to release: 36
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 39. Remaining tickets to release: 34
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 39. Remaining tickets to release: 34
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 42. Remaining tickets to release: 31
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 42. Remaining tickets to release: 31
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 43. Remaining tickets to release: 30
+2024-12-11 01:09:52 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 43. Remaining tickets to release: 30
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 45. Remaining tickets to release: 28
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 45. Remaining tickets to release: 28
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 47. Remaining tickets to release: 26
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 47. Remaining tickets to release: 26
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 48. Remaining tickets to release: 25
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 48. Remaining tickets to release: 25
+2024-12-11 01:09:53 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:53 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 49. Remaining tickets to release: 24
+2024-12-11 01:09:53 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 49. Remaining tickets to release: 24
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 48
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 48
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 46
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 46
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 43
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 43
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 42
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 42
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 37
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 37
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 38. Remaining tickets to release: 23
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 38. Remaining tickets to release: 23
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 40. Remaining tickets to release: 21
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 40. Remaining tickets to release: 21
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 43. Remaining tickets to release: 18
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 43. Remaining tickets to release: 18
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 44. Remaining tickets to release: 17
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 44. Remaining tickets to release: 17
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 49. Remaining tickets to release: 12
+2024-12-11 01:09:54 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 49. Remaining tickets to release: 12
+2024-12-11 01:09:55 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 50. Remaining tickets to release: 11
+2024-12-11 01:09:55 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 50. Remaining tickets to release: 11
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 1 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 1 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-5 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-5 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-2 tried to add 1 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:55 WARN  org.example.server.model.TicketPool - Vendor-2 tried to add 1 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 48
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 48
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 46
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 46
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 45
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 45
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 41
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 41
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 39
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 39
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 43. Remaining tickets to release: 7
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 43. Remaining tickets to release: 7
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 48. Remaining tickets to release: 2
+2024-12-11 01:09:56 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 48. Remaining tickets to release: 2
+2024-12-11 01:09:56 WARN  org.example.server.model.TicketPool - Vendor-4 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:56 WARN  org.example.server.model.TicketPool - Vendor-4 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:56 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:56 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:56 WARN  org.example.server.model.TicketPool - Vendor-2 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:56 WARN  org.example.server.model.TicketPool - Vendor-2 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-2 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-2 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-4 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-4 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-5 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:57 WARN  org.example.server.model.TicketPool - Vendor-5 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 44
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 44
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 40
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 40
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 38
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 38
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 34
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 34
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 29
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 29
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 30. Remaining tickets to release: 1
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 30. Remaining tickets to release: 1
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 31. Remaining tickets to release: 0
+2024-12-11 01:09:58 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 31. Remaining tickets to release: 0
+2024-12-11 01:09:58 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:09:58 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 4 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 28
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 28
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 23
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 23
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 21
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 21
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 19
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 19
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 17
+2024-12-11 01:10:00 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 17
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 16
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 16
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 11
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 11
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 10
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 10
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 6
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 6
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 2
+2024-12-11 01:10:02 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 2
+2024-12-11 01:10:04 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 1
+2024-12-11 01:10:04 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 1
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-4 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-4 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-5 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-5 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:04 WARN  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-1 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-1 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-5 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-5 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-2 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-2 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-3 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:06 WARN  org.example.server.model.TicketPool - Customer-3 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:08 WARN  org.example.server.model.TicketPool - Customer-4 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:08 WARN  org.example.server.model.TicketPool - Customer-4 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:08 WARN  org.example.server.model.TicketPool - Customer-1 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:08 WARN  org.example.server.model.TicketPool - Customer-1 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:10:08 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:10:08 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:10:08 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:10:08 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:10:08 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:10:08 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:10:45 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:10:45 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:11:22 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@6379f81b
+2024-12-11 01:11:22 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@6379f81b
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 4. Remaining tickets to release: 96
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 4. Remaining tickets to release: 96
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 8. Remaining tickets to release: 92
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 8. Remaining tickets to release: 92
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 10. Remaining tickets to release: 90
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 10. Remaining tickets to release: 90
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 15. Remaining tickets to release: 85
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 15. Remaining tickets to release: 85
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 19. Remaining tickets to release: 81
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 19. Remaining tickets to release: 81
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 17
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 17
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 16
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 16
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 11
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 11
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 7
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 7
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 3
+2024-12-11 01:11:22 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 3
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 6. Remaining tickets to release: 78
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 6. Remaining tickets to release: 78
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 7. Remaining tickets to release: 77
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 7. Remaining tickets to release: 77
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 9. Remaining tickets to release: 75
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 9. Remaining tickets to release: 75
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 10. Remaining tickets to release: 74
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 10. Remaining tickets to release: 74
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 14. Remaining tickets to release: 70
+2024-12-11 01:11:23 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 14. Remaining tickets to release: 70
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 11
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 11
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 12. Remaining tickets to release: 69
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 12. Remaining tickets to release: 69
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 8
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 8
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 6
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 6
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 11. Remaining tickets to release: 64
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 11. Remaining tickets to release: 64
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 14. Remaining tickets to release: 61
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 14. Remaining tickets to release: 61
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 10
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 10
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 8
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 8
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 10. Remaining tickets to release: 59
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 10. Remaining tickets to release: 59
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 15. Remaining tickets to release: 54
+2024-12-11 01:11:24 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 15. Remaining tickets to release: 54
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 18. Remaining tickets to release: 51
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 18. Remaining tickets to release: 51
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 21. Remaining tickets to release: 48
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 21. Remaining tickets to release: 48
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 23. Remaining tickets to release: 46
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 23. Remaining tickets to release: 46
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 27. Remaining tickets to release: 42
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 27. Remaining tickets to release: 42
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 30. Remaining tickets to release: 39
+2024-12-11 01:11:25 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 30. Remaining tickets to release: 39
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 31. Remaining tickets to release: 38
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 31. Remaining tickets to release: 38
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 35. Remaining tickets to release: 34
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 35. Remaining tickets to release: 34
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 39. Remaining tickets to release: 30
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-3 added 4 tickets. Current pool: 39. Remaining tickets to release: 30
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 37
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 37
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 40. Remaining tickets to release: 27
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 40. Remaining tickets to release: 27
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 43. Remaining tickets to release: 24
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 43. Remaining tickets to release: 24
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 42
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 42
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 39
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 39
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 36
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 36
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 31
+2024-12-11 01:11:26 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 31
+2024-12-11 01:11:26 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:11:26 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:14:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 01:14:39 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-11 01:15:06 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 23448 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:15:06 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 23448 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:15:06 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:15:06 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:15:06 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:15:06 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:15:06 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:15:06 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:15:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:15:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:15:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:15:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 01:15:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:15:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 948 ms
+2024-12-11 01:15:07 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:15:07 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:15:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-11 01:15:07 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.747 seconds (process running for 2.585)
+2024-12-11 01:15:07 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.747 seconds (process running for 2.585)
+2024-12-11 01:15:07 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:15:07 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:15:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:15:15 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:15:15 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:15:15 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@46634ced
+2024-12-11 01:15:15 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@46634ced
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 5. Remaining tickets to release: 95
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 5. Remaining tickets to release: 95
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 0
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 0
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 5. Remaining tickets to release: 90
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 5. Remaining tickets to release: 90
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 7. Remaining tickets to release: 88
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 7. Remaining tickets to release: 88
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 10. Remaining tickets to release: 85
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 10. Remaining tickets to release: 85
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 11. Remaining tickets to release: 84
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 11. Remaining tickets to release: 84
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 8
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 8
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 3
+2024-12-11 01:15:15 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 3
+2024-12-11 01:15:15 WARN  org.example.server.model.TicketPool - Customer-3 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:15 WARN  org.example.server.model.TicketPool - Customer-3 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:15 WARN  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:15 WARN  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 6. Remaining tickets to release: 81
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 6. Remaining tickets to release: 81
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 8. Remaining tickets to release: 79
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 8. Remaining tickets to release: 79
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 12. Remaining tickets to release: 75
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 12. Remaining tickets to release: 75
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 13. Remaining tickets to release: 74
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 13. Remaining tickets to release: 74
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 17. Remaining tickets to release: 70
+2024-12-11 01:15:16 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 17. Remaining tickets to release: 70
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 16
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 16
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 17. Remaining tickets to release: 69
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 17. Remaining tickets to release: 69
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 22. Remaining tickets to release: 64
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 22. Remaining tickets to release: 64
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 23. Remaining tickets to release: 63
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 23. Remaining tickets to release: 63
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 19
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 19
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 17
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 17
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 21. Remaining tickets to release: 59
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 21. Remaining tickets to release: 59
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 26. Remaining tickets to release: 54
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 26. Remaining tickets to release: 54
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 21
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 21
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 19
+2024-12-11 01:15:17 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 19
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 23. Remaining tickets to release: 50
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 23. Remaining tickets to release: 50
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 28. Remaining tickets to release: 45
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 28. Remaining tickets to release: 45
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 33. Remaining tickets to release: 40
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 33. Remaining tickets to release: 40
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 36. Remaining tickets to release: 37
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 36. Remaining tickets to release: 37
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 39. Remaining tickets to release: 34
+2024-12-11 01:15:18 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 39. Remaining tickets to release: 34
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 34
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 34
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 33
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 33
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 29
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 29
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 31. Remaining tickets to release: 32
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 31. Remaining tickets to release: 32
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 32. Remaining tickets to release: 31
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 32. Remaining tickets to release: 31
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 34. Remaining tickets to release: 29
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 34. Remaining tickets to release: 29
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 29
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 29
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 30. Remaining tickets to release: 28
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 30. Remaining tickets to release: 28
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 35. Remaining tickets to release: 23
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 35. Remaining tickets to release: 23
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 33
+2024-12-11 01:15:19 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 33
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 35. Remaining tickets to release: 21
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 35. Remaining tickets to release: 21
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 39. Remaining tickets to release: 17
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 39. Remaining tickets to release: 17
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 43. Remaining tickets to release: 13
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 43. Remaining tickets to release: 13
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 48. Remaining tickets to release: 8
+2024-12-11 01:15:20 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 48. Remaining tickets to release: 8
+2024-12-11 01:15:20 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:15:20 WARN  org.example.server.model.TicketPool - Vendor-3 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 46
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 46
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 45
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 45
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 50. Remaining tickets to release: 3
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 50. Remaining tickets to release: 3
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 46
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 46
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 47. Remaining tickets to release: 2
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 47. Remaining tickets to release: 2
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 48. Remaining tickets to release: 1
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 48. Remaining tickets to release: 1
+2024-12-11 01:15:21 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:15:21 WARN  org.example.server.model.TicketPool - Vendor-1 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 45
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 45
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 42
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 42
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 43. Remaining tickets to release: 0
+2024-12-11 01:15:21 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 43. Remaining tickets to release: 0
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 39
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 39
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 34
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 34
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 32
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 32
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 30
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 30
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 26
+2024-12-11 01:15:23 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 26
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 25
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 25
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 22
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 22
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 21
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 21
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 17
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 17
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 12
+2024-12-11 01:15:25 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 12
+2024-12-11 01:15:27 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 7
+2024-12-11 01:15:27 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 7
+2024-12-11 01:15:27 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 2
+2024-12-11 01:15:27 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 2
+2024-12-11 01:15:27 WARN  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:27 WARN  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:27 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 1
+2024-12-11 01:15:27 INFO  org.example.server.model.TicketPool - Customer-5 bought 1 tickets. Remaining pool: 1
+2024-12-11 01:15:27 WARN  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:27 WARN  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-1 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-1 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-4 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-4 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-5 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-5 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:15:29 WARN  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-1 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-1 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-4 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-4 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-3 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-3 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-5 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-5 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:15:31 WARN  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:15:33 WARN  org.example.server.model.TicketPool - Customer-1 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:33 WARN  org.example.server.model.TicketPool - Customer-1 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:33 WARN  org.example.server.model.TicketPool - Customer-4 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:33 WARN  org.example.server.model.TicketPool - Customer-4 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:15:33 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:15:33 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:15:33 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:15:33 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:15:33 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:15:33 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:15:36 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 01:15:36 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-11 01:18:14 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 39288 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:18:14 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 39288 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:18:14 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:18:14 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:18:14 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:18:14 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:18:14 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:18:14 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:18:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:18:15 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:18:15 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:18:15 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 01:18:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:18:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2024-12-11 01:18:15 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:18:15 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:18:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-11 01:18:15 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.44 seconds (process running for 2.069)
+2024-12-11 01:18:15 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.44 seconds (process running for 2.069)
+2024-12-11 01:18:15 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:18:15 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:18:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:18:15 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:18:15 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-11 01:18:20 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@351a2252
+2024-12-11 01:18:20 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@351a2252
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 2. Remaining tickets to release: 98
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 2. Remaining tickets to release: 98
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 0
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 0
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-3 wanted 1 tickets. Not enough in the pool.
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-3 wanted 1 tickets. Not enough in the pool.
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-2 wanted 1 tickets. Not enough in the pool.
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-2 wanted 1 tickets. Not enough in the pool.
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 2. Remaining tickets to release: 96
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 2. Remaining tickets to release: 96
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 3. Remaining tickets to release: 95
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 3. Remaining tickets to release: 95
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 8. Remaining tickets to release: 90
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 8. Remaining tickets to release: 90
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 11. Remaining tickets to release: 87
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 11. Remaining tickets to release: 87
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 7
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 7
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 4
+2024-12-11 01:18:20 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 4
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 6. Remaining tickets to release: 85
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 6. Remaining tickets to release: 85
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 10. Remaining tickets to release: 81
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 10. Remaining tickets to release: 81
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 13. Remaining tickets to release: 78
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 13. Remaining tickets to release: 78
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 17. Remaining tickets to release: 74
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 17. Remaining tickets to release: 74
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 18. Remaining tickets to release: 73
+2024-12-11 01:18:21 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 18. Remaining tickets to release: 73
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 13
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 13
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 11
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-2 bought 2 tickets. Remaining pool: 11
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 12. Remaining tickets to release: 72
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 12. Remaining tickets to release: 72
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 9
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 9
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 10. Remaining tickets to release: 71
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 10. Remaining tickets to release: 71
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 9
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 9
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 5
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 5
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 10. Remaining tickets to release: 66
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 10. Remaining tickets to release: 66
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 11. Remaining tickets to release: 65
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 11. Remaining tickets to release: 65
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 14. Remaining tickets to release: 62
+2024-12-11 01:18:22 INFO  org.example.server.model.TicketPool - Vendor-3 added 3 tickets. Current pool: 14. Remaining tickets to release: 62
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 19. Remaining tickets to release: 57
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-1 added 5 tickets. Current pool: 19. Remaining tickets to release: 57
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 24. Remaining tickets to release: 52
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 24. Remaining tickets to release: 52
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 25. Remaining tickets to release: 51
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 25. Remaining tickets to release: 51
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 28. Remaining tickets to release: 48
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 28. Remaining tickets to release: 48
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 33. Remaining tickets to release: 43
+2024-12-11 01:18:23 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 33. Remaining tickets to release: 43
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 31
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 31
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 28
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 28
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 32. Remaining tickets to release: 39
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 32. Remaining tickets to release: 39
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 30
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 30
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 29
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 29
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 24
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 24
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 25. Remaining tickets to release: 38
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 25. Remaining tickets to release: 38
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 30. Remaining tickets to release: 33
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 30. Remaining tickets to release: 33
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 35. Remaining tickets to release: 28
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 35. Remaining tickets to release: 28
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 38. Remaining tickets to release: 25
+2024-12-11 01:18:24 INFO  org.example.server.model.TicketPool - Vendor-5 added 3 tickets. Current pool: 38. Remaining tickets to release: 25
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 39. Remaining tickets to release: 24
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 39. Remaining tickets to release: 24
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 41. Remaining tickets to release: 22
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 41. Remaining tickets to release: 22
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 46. Remaining tickets to release: 17
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 46. Remaining tickets to release: 17
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-2 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-2 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-3 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:18:25 INFO  org.example.server.model.TicketPool - Vendor-3 tried to add 5 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 43
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 43
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 40
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 40
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 39
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 39
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 42. Remaining tickets to release: 14
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-4 added 3 tickets. Current pool: 42. Remaining tickets to release: 14
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 46. Remaining tickets to release: 10
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 46. Remaining tickets to release: 10
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 41
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 41
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 40
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 40
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 45. Remaining tickets to release: 5
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 45. Remaining tickets to release: 5
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 46. Remaining tickets to release: 4
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 46. Remaining tickets to release: 4
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 49. Remaining tickets to release: 1
+2024-12-11 01:18:26 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 49. Remaining tickets to release: 1
+2024-12-11 01:18:27 INFO  org.example.server.model.TicketPool - Vendor-1 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:18:27 INFO  org.example.server.model.TicketPool - Vendor-1 tried to add 3 tickets but ticket pool is full or no remaining tickets.
+2024-12-11 01:18:27 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 50. Remaining tickets to release: 0
+2024-12-11 01:18:27 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 50. Remaining tickets to release: 0
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 46
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 46
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 45
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 45
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 44
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 44
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 43
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 43
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 41
+2024-12-11 01:18:28 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 41
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 36
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 36
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 35
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 35
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 32
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-3 bought 3 tickets. Remaining pool: 32
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 28
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 28
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 27
+2024-12-11 01:18:30 INFO  org.example.server.model.TicketPool - Customer-1 bought 1 tickets. Remaining pool: 27
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 23
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 23
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 22
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 22
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 21
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 21
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 17
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 17
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 14
+2024-12-11 01:18:32 INFO  org.example.server.model.TicketPool - Customer-4 bought 3 tickets. Remaining pool: 14
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 11
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 11
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 6
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 6
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 2
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 2
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-2 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-2 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:18:34 INFO  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:18:36 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 0
+2024-12-11 01:18:36 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 0
+2024-12-11 01:18:36 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:18:36 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:18:36 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:18:36 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:18:41 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 01:18:41 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-11 01:33:20 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 2672 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:33:20 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 2672 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2024-12-11 01:33:20 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:33:20 DEBUG o.example.server.ServerApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-11 01:33:20 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:33:20 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:33:20 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:33:20 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:33:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:33:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:33:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:33:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 01:33:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:33:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1057 ms
+2024-12-11 01:33:22 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:33:22 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:33:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-11 01:33:22 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.729 seconds (process running for 2.451)
+2024-12-11 01:33:22 INFO  o.example.server.ServerApplication - Started ServerApplication in 1.729 seconds (process running for 2.451)
+2024-12-11 01:33:22 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:33:22 INFO  o.example.server.ServerApplication - System Initialized
+2024-12-11 01:33:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:33:44 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:33:44 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:33:44 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@cf1227
+2024-12-11 01:33:44 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@cf1227
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 1. Remaining tickets to release: 99
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 1. Remaining tickets to release: 99
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-3 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-1 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-1 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 2. Remaining tickets to release: 98
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 2. Remaining tickets to release: 98
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 4. Remaining tickets to release: 96
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 4. Remaining tickets to release: 96
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 5. Remaining tickets to release: 95
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 5. Remaining tickets to release: 95
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 8. Remaining tickets to release: 92
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Vendor-2 added 3 tickets. Current pool: 8. Remaining tickets to release: 92
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 4
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 4
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 0
+2024-12-11 01:33:44 INFO  org.example.server.model.TicketPool - Customer-5 bought 4 tickets. Remaining pool: 0
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 1. Remaining tickets to release: 91
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 1. Remaining tickets to release: 91
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 3. Remaining tickets to release: 89
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 3. Remaining tickets to release: 89
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 1
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 1
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-3 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-3 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 2. Remaining tickets to release: 88
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 2. Remaining tickets to release: 88
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 4. Remaining tickets to release: 86
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 4. Remaining tickets to release: 86
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 6. Remaining tickets to release: 84
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Vendor-5 added 2 tickets. Current pool: 6. Remaining tickets to release: 84
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 2
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-4 bought 4 tickets. Remaining pool: 2
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-5 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:45 INFO  org.example.server.model.TicketPool - Customer-5 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 4. Remaining tickets to release: 82
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 4. Remaining tickets to release: 82
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 8. Remaining tickets to release: 78
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 8. Remaining tickets to release: 78
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 12. Remaining tickets to release: 74
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 12. Remaining tickets to release: 74
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 11
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-2 bought 1 tickets. Remaining pool: 11
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 12. Remaining tickets to release: 73
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 12. Remaining tickets to release: 73
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 7
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 7
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 3
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 3
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 4. Remaining tickets to release: 72
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 4. Remaining tickets to release: 72
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 3
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-4 bought 1 tickets. Remaining pool: 3
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-5 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:33:46 INFO  org.example.server.model.TicketPool - Customer-5 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 7. Remaining tickets to release: 68
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 7. Remaining tickets to release: 68
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 3
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-3 bought 4 tickets. Remaining pool: 3
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 1
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 1
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 2. Remaining tickets to release: 67
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 2. Remaining tickets to release: 67
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 3. Remaining tickets to release: 66
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-5 added 1 tickets. Current pool: 3. Remaining tickets to release: 66
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 5. Remaining tickets to release: 64
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 5. Remaining tickets to release: 64
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 6. Remaining tickets to release: 63
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 6. Remaining tickets to release: 63
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 1
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 1
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-5 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:47 INFO  org.example.server.model.TicketPool - Customer-5 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-2 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-2 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 5. Remaining tickets to release: 58
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-2 added 5 tickets. Current pool: 5. Remaining tickets to release: 58
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 2
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-1 bought 3 tickets. Remaining pool: 2
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 6. Remaining tickets to release: 54
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 6. Remaining tickets to release: 54
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 11. Remaining tickets to release: 49
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-4 added 5 tickets. Current pool: 11. Remaining tickets to release: 49
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 12. Remaining tickets to release: 48
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-3 added 1 tickets. Current pool: 12. Remaining tickets to release: 48
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 14. Remaining tickets to release: 46
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Vendor-1 added 2 tickets. Current pool: 14. Remaining tickets to release: 46
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 12
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-5 bought 2 tickets. Remaining pool: 12
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 10
+2024-12-11 01:33:48 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 10
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 15. Remaining tickets to release: 41
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-3 added 5 tickets. Current pool: 15. Remaining tickets to release: 41
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 20. Remaining tickets to release: 36
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 20. Remaining tickets to release: 36
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 18
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 18
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 22. Remaining tickets to release: 32
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-2 added 4 tickets. Current pool: 22. Remaining tickets to release: 32
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 17
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-1 bought 5 tickets. Remaining pool: 17
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 19. Remaining tickets to release: 30
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-4 added 2 tickets. Current pool: 19. Remaining tickets to release: 30
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 14
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-2 bought 5 tickets. Remaining pool: 14
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 11
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 11
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 9
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Customer-4 bought 2 tickets. Remaining pool: 9
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 12. Remaining tickets to release: 27
+2024-12-11 01:33:49 INFO  org.example.server.model.TicketPool - Vendor-1 added 3 tickets. Current pool: 12. Remaining tickets to release: 27
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 16. Remaining tickets to release: 23
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-4 added 4 tickets. Current pool: 16. Remaining tickets to release: 23
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 11
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 11
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 13. Remaining tickets to release: 21
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 13. Remaining tickets to release: 21
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 11
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-1 bought 2 tickets. Remaining pool: 11
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 13. Remaining tickets to release: 19
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-2 added 2 tickets. Current pool: 13. Remaining tickets to release: 19
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 18. Remaining tickets to release: 14
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-5 added 5 tickets. Current pool: 18. Remaining tickets to release: 14
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 14
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-2 bought 4 tickets. Remaining pool: 14
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 18. Remaining tickets to release: 10
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Vendor-1 added 4 tickets. Current pool: 18. Remaining tickets to release: 10
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 15
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-5 bought 3 tickets. Remaining pool: 15
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 10
+2024-12-11 01:33:50 INFO  org.example.server.model.TicketPool - Customer-4 bought 5 tickets. Remaining pool: 10
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 14. Remaining tickets to release: 6
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-5 added 4 tickets. Current pool: 14. Remaining tickets to release: 6
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 15. Remaining tickets to release: 5
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-2 added 1 tickets. Current pool: 15. Remaining tickets to release: 5
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 17. Remaining tickets to release: 3
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-3 added 2 tickets. Current pool: 17. Remaining tickets to release: 3
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 13
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-1 bought 4 tickets. Remaining pool: 13
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 8
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-3 bought 5 tickets. Remaining pool: 8
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 9. Remaining tickets to release: 2
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 9. Remaining tickets to release: 2
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 6
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-2 bought 3 tickets. Remaining pool: 6
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 1
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-5 bought 5 tickets. Remaining pool: 1
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 2. Remaining tickets to release: 1
+2024-12-11 01:33:51 INFO  org.example.server.model.TicketPool - Vendor-1 added 1 tickets. Current pool: 2. Remaining tickets to release: 1
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 3. Remaining tickets to release: 0
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Vendor-4 added 1 tickets. Current pool: 3. Remaining tickets to release: 0
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 1
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-3 bought 2 tickets. Remaining pool: 1
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-2 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-1 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-1 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-4 wanted 3 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-5 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:52 INFO  org.example.server.model.TicketPool - Customer-5 wanted 4 tickets. Not enough in the pool.
+2024-12-11 01:33:53 INFO  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:33:53 INFO  org.example.server.model.TicketPool - Customer-2 wanted 5 tickets. Not enough in the pool.
+2024-12-11 01:33:53 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:33:53 INFO  org.example.server.model.TicketPool - Customer-3 bought 1 tickets. Remaining pool: 0
+2024-12-11 01:33:53 INFO  org.example.server.model.TicketPool - Customer-1 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:53 INFO  org.example.server.model.TicketPool - Customer-1 wanted 2 tickets. Not enough in the pool.
+2024-12-11 01:33:54 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:33:54 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2024-12-11 01:33:54 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:33:54 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:33:56 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:33:56 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2024-12-11 01:39:11 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11 01:39:11 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete

@@ -1,0 +1,675 @@
+2025-01-20 11:02:47 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 41888 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2025-01-20 11:02:47 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-20 11:02:49 INFO  o.example.server.ServerApplication - Started ServerApplication in 2.15 seconds (process running for 7.064)
+2025-01-20 11:02:49 INFO  o.example.server.ServerApplication - System Initialized: Server is up and running.
+2025-01-20 11:07:52 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@59fe2927
+2025-01-20 11:07:52 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 497
+2025-01-20 11:07:52 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 493
+2025-01-20 11:07:52 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 492
+2025-01-20 11:07:52 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 6
+2025-01-20 11:07:52 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 1
+2025-01-20 11:07:52 WARN  org.example.server.model.TicketPool - cus2 wanted 5 tickets, but not enough in the pool.
+2025-01-20 11:07:52 WARN  org.example.server.model.TicketPool - cus1 wanted 3 tickets, but not enough in the pool.
+2025-01-20 11:07:53 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 489
+2025-01-20 11:07:53 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 484
+2025-01-20 11:07:53 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 479
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 11
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 10
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 8
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 5
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 477
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 473
+2025-01-20 11:07:54 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 468
+2025-01-20 11:07:55 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 464
+2025-01-20 11:07:55 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 459
+2025-01-20 11:07:55 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 458
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 25
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 21
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 19
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 18
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 456
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 453
+2025-01-20 11:07:56 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 449
+2025-01-20 11:07:57 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 444
+2025-01-20 11:07:57 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 441
+2025-01-20 11:07:57 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 437
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 36
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 35
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 31
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 27
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 434
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 432
+2025-01-20 11:07:58 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 428
+2025-01-20 11:07:59 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 426
+2025-01-20 11:07:59 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 425
+2025-01-20 11:07:59 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 420
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 40
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 37
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 34
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 33
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 417
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 415
+2025-01-20 11:08:00 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 412
+2025-01-20 11:08:01 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 410
+2025-01-20 11:08:01 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 406
+2025-01-20 11:08:01 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 404
+2025-01-20 11:08:02 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:08:02 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 45
+2025-01-20 11:08:02 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 44
+2025-01-20 11:08:02 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:08:02 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 401
+2025-01-20 11:08:02 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 398
+2025-01-20 11:08:02 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:03 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:03 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 396
+2025-01-20 11:08:03 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 45
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 41
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 39
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 393
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 389
+2025-01-20 11:08:04 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 388
+2025-01-20 11:08:05 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 387
+2025-01-20 11:08:05 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 386
+2025-01-20 11:08:05 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 46
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 44
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 43
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 39
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 385
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 380
+2025-01-20 11:08:06 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 377
+2025-01-20 11:08:07 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:07 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:07 WARN  org.example.server.model.TicketPool - ven2 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 47
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 44
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 43
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 39
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 372
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 369
+2025-01-20 11:08:08 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 366
+2025-01-20 11:08:09 WARN  org.example.server.model.TicketPool - ven3 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:09 WARN  org.example.server.model.TicketPool - Ven1 tried to add 1 tickets, but the pool is full.
+2025-01-20 11:08:09 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 45
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 44
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 363
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 361
+2025-01-20 11:08:10 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 359
+2025-01-20 11:08:11 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 357
+2025-01-20 11:08:11 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:11 WARN  org.example.server.model.TicketPool - ven2 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 43
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 39
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 36
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 352
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 347
+2025-01-20 11:08:12 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 345
+2025-01-20 11:08:13 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:08:13 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 344
+2025-01-20 11:08:13 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 47
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 45
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 42
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 343
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 342
+2025-01-20 11:08:14 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 338
+2025-01-20 11:08:15 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 337
+2025-01-20 11:08:15 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:15 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 46
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 42
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 40
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 336
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 334
+2025-01-20 11:08:16 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 330
+2025-01-20 11:08:17 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 328
+2025-01-20 11:08:17 WARN  org.example.server.model.TicketPool - Ven1 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:08:17 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 45
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 42
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 39
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 36
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 324
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 320
+2025-01-20 11:08:18 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 317
+2025-01-20 11:08:19 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 316
+2025-01-20 11:08:19 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 315
+2025-01-20 11:08:19 WARN  org.example.server.model.TicketPool - ven2 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 46
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 43
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 39
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 35
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 310
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 309
+2025-01-20 11:08:20 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 305
+2025-01-20 11:08:21 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 303
+2025-01-20 11:08:21 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 301
+2025-01-20 11:08:21 WARN  org.example.server.model.TicketPool - ven2 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 46
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 44
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 43
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 41
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 300
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 299
+2025-01-20 11:08:22 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 296
+2025-01-20 11:08:23 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 294
+2025-01-20 11:08:23 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 292
+2025-01-20 11:08:24 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:08:24 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:08:24 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 42
+2025-01-20 11:08:24 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 39
+2025-01-20 11:08:24 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 35
+2025-01-20 11:08:24 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 289
+2025-01-20 11:08:25 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 288
+2025-01-20 11:08:25 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 286
+2025-01-20 11:08:25 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 283
+2025-01-20 11:08:26 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 278
+2025-01-20 11:08:26 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:08:26 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:08:26 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 45
+2025-01-20 11:08:26 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 41
+2025-01-20 11:08:26 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 36
+2025-01-20 11:08:27 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 273
+2025-01-20 11:08:27 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 270
+2025-01-20 11:08:27 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 269
+2025-01-20 11:08:28 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 265
+2025-01-20 11:08:28 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 264
+2025-01-20 11:08:28 WARN  org.example.server.model.TicketPool - ven2 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:08:28 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:08:28 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 46
+2025-01-20 11:08:28 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 43
+2025-01-20 11:08:28 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 38
+2025-01-20 11:08:29 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 260
+2025-01-20 11:08:29 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 257
+2025-01-20 11:08:29 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 252
+2025-01-20 11:08:29 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2025-01-20 11:09:07 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@2a3bd4bb
+2025-01-20 11:09:07 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 495
+2025-01-20 11:09:07 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 494
+2025-01-20 11:09:07 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 491
+2025-01-20 11:09:07 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 7
+2025-01-20 11:09:07 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 4
+2025-01-20 11:09:07 WARN  org.example.server.model.TicketPool - cus1 wanted 5 tickets, but not enough in the pool.
+2025-01-20 11:09:07 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 0
+2025-01-20 11:09:08 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 489
+2025-01-20 11:09:08 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 485
+2025-01-20 11:09:08 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 483
+2025-01-20 11:09:09 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 482
+2025-01-20 11:09:09 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 5
+2025-01-20 11:09:09 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 1
+2025-01-20 11:09:09 WARN  org.example.server.model.TicketPool - cus2 wanted 2 tickets, but not enough in the pool.
+2025-01-20 11:09:09 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 481
+2025-01-20 11:09:09 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 477
+2025-01-20 11:09:09 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 3
+2025-01-20 11:09:10 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 475
+2025-01-20 11:09:10 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 474
+2025-01-20 11:09:10 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 472
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 6
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 468
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 5
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 463
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 7
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 2
+2025-01-20 11:09:11 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 460
+2025-01-20 11:09:12 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 458
+2025-01-20 11:09:12 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 457
+2025-01-20 11:09:12 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 455
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 8
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 450
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 11
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 7
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 2
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 445
+2025-01-20 11:09:13 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 441
+2025-01-20 11:09:14 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 439
+2025-01-20 11:09:14 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 435
+2025-01-20 11:09:14 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 432
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 15
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 12
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 7
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 2
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 429
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 424
+2025-01-20 11:09:15 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 420
+2025-01-20 11:09:16 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 416
+2025-01-20 11:09:16 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 411
+2025-01-20 11:09:16 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 407
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 23
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 19
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 16
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 15
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 405
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 401
+2025-01-20 11:09:17 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 400
+2025-01-20 11:09:18 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 398
+2025-01-20 11:09:18 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 394
+2025-01-20 11:09:18 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 393
+2025-01-20 11:09:19 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2025-01-20 11:09:36 INFO  o.e.s.service.TicketSystemService - System starting with config: org.example.server.model.SystemConfig@89fccf1
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 495
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 492
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 6
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 487
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 7
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 5
+2025-01-20 11:09:36 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 4
+2025-01-20 11:09:37 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 486
+2025-01-20 11:09:37 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 485
+2025-01-20 11:09:37 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 481
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 476
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 11
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 9
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 474
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 9
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 6
+2025-01-20 11:09:38 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 473
+2025-01-20 11:09:39 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 468
+2025-01-20 11:09:39 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 465
+2025-01-20 11:09:39 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 464
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 13
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 10
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 462
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 7
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 461
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 6
+2025-01-20 11:09:40 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 459
+2025-01-20 11:09:41 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 455
+2025-01-20 11:09:41 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 452
+2025-01-20 11:09:41 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 448
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 17
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 15
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 14
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 12
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 444
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 439
+2025-01-20 11:09:42 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 434
+2025-01-20 11:09:43 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 432
+2025-01-20 11:09:43 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 429
+2025-01-20 11:09:43 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 428
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 29
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 26
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 22
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 18
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 424
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 422
+2025-01-20 11:09:44 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 418
+2025-01-20 11:09:45 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 414
+2025-01-20 11:09:45 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 413
+2025-01-20 11:09:45 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 408
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 37
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 33
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 30
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 28
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 406
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 403
+2025-01-20 11:09:46 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 400
+2025-01-20 11:09:47 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 399
+2025-01-20 11:09:47 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 398
+2025-01-20 11:09:47 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 397
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 34
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 30
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 28
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 25
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 396
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 392
+2025-01-20 11:09:48 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 389
+2025-01-20 11:09:49 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 387
+2025-01-20 11:09:49 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 382
+2025-01-20 11:09:49 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 380
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 38
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 36
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 32
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 31
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 376
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 374
+2025-01-20 11:09:50 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 371
+2025-01-20 11:09:51 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 369
+2025-01-20 11:09:51 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 365
+2025-01-20 11:09:51 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 361
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 48
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 44
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 39
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 34
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 356
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 351
+2025-01-20 11:09:52 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 349
+2025-01-20 11:09:53 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 345
+2025-01-20 11:09:53 WARN  org.example.server.model.TicketPool - ven2 tried to add 1 tickets, but the pool is full.
+2025-01-20 11:09:53 WARN  org.example.server.model.TicketPool - ven3 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:09:54 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:09:54 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 45
+2025-01-20 11:09:54 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 44
+2025-01-20 11:09:54 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 42
+2025-01-20 11:09:54 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 340
+2025-01-20 11:09:54 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:09:54 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 338
+2025-01-20 11:09:55 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:09:55 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:09:55 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 337
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 46
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 41
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 39
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 36
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 336
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 332
+2025-01-20 11:09:56 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 328
+2025-01-20 11:09:57 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 325
+2025-01-20 11:09:57 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:09:57 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:09:58 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 47
+2025-01-20 11:09:58 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 42
+2025-01-20 11:09:58 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 40
+2025-01-20 11:09:58 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 37
+2025-01-20 11:09:58 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 321
+2025-01-20 11:09:58 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 316
+2025-01-20 11:09:58 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:09:59 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 313
+2025-01-20 11:09:59 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:09:59 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 312
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 49
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 44
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 42
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 309
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 308
+2025-01-20 11:10:00 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 307
+2025-01-20 11:10:01 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:01 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 306
+2025-01-20 11:10:01 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 47
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 43
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 42
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 41
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 305
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 303
+2025-01-20 11:10:02 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 298
+2025-01-20 11:10:03 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 297
+2025-01-20 11:10:03 WARN  org.example.server.model.TicketPool - Ven1 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:03 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 49
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 46
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 42
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 37
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 292
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 290
+2025-01-20 11:10:04 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 289
+2025-01-20 11:10:05 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 287
+2025-01-20 11:10:05 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 285
+2025-01-20 11:10:05 WARN  org.example.server.model.TicketPool - ven3 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 44
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 39
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 34
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 282
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 281
+2025-01-20 11:10:06 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 277
+2025-01-20 11:10:07 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 273
+2025-01-20 11:10:07 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 270
+2025-01-20 11:10:07 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 269
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 45
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 43
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 42
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 41
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 265
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 263
+2025-01-20 11:10:08 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 260
+2025-01-20 11:10:09 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:09 WARN  org.example.server.model.TicketPool - Ven1 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:09 WARN  org.example.server.model.TicketPool - ven3 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 48
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 46
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 45
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 43
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 256
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 255
+2025-01-20 11:10:10 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 253
+2025-01-20 11:10:11 WARN  org.example.server.model.TicketPool - ven2 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:11 WARN  org.example.server.model.TicketPool - Ven1 tried to add 1 tickets, but the pool is full.
+2025-01-20 11:10:11 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 46
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 41
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 36
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 35
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 250
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 249
+2025-01-20 11:10:12 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 247
+2025-01-20 11:10:13 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 244
+2025-01-20 11:10:13 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 240
+2025-01-20 11:10:13 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 239
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 42
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 38
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 34
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 234
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 230
+2025-01-20 11:10:14 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 227
+2025-01-20 11:10:15 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:15 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 226
+2025-01-20 11:10:15 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 43
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 40
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 38
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 37
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 223
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 221
+2025-01-20 11:10:16 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 216
+2025-01-20 11:10:17 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:17 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 215
+2025-01-20 11:10:17 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 213
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 49
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 44
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 212
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 209
+2025-01-20 11:10:18 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 207
+2025-01-20 11:10:19 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 204
+2025-01-20 11:10:19 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:19 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:20 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:10:20 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 45
+2025-01-20 11:10:20 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 44
+2025-01-20 11:10:20 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:10:20 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 199
+2025-01-20 11:10:20 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 196
+2025-01-20 11:10:20 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:21 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:21 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:21 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 195
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 47
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 42
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - cus4 bought 1 tickets. Remaining pool: 41
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 37
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 192
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 188
+2025-01-20 11:10:22 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 187
+2025-01-20 11:10:23 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 185
+2025-01-20 11:10:23 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 183
+2025-01-20 11:10:23 WARN  org.example.server.model.TicketPool - ven3 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:24 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:10:24 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 46
+2025-01-20 11:10:24 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 43
+2025-01-20 11:10:24 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 42
+2025-01-20 11:10:24 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 179
+2025-01-20 11:10:24 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 176
+2025-01-20 11:10:24 WARN  org.example.server.model.TicketPool - Ven1 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:25 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 175
+2025-01-20 11:10:25 WARN  org.example.server.model.TicketPool - ven3 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:25 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 48
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 44
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 40
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 172
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 170
+2025-01-20 11:10:26 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 168
+2025-01-20 11:10:27 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 167
+2025-01-20 11:10:27 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:27 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 166
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 46
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 42
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 39
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 165
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 160
+2025-01-20 11:10:28 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 157
+2025-01-20 11:10:29 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:29 WARN  org.example.server.model.TicketPool - ven2 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:29 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 45
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 43
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 40
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 37
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 155
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 151
+2025-01-20 11:10:30 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 149
+2025-01-20 11:10:31 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 148
+2025-01-20 11:10:31 INFO  org.example.server.model.TicketPool - ven3 added 2 tickets. Remaining: 146
+2025-01-20 11:10:31 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 43
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 40
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 37
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 36
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 143
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 139
+2025-01-20 11:10:32 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 135
+2025-01-20 11:10:33 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 133
+2025-01-20 11:10:33 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:33 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 132
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 48
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 44
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 39
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 37
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 129
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 124
+2025-01-20 11:10:34 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 119
+2025-01-20 11:10:35 WARN  org.example.server.model.TicketPool - ven2 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:35 WARN  org.example.server.model.TicketPool - ven3 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:35 WARN  org.example.server.model.TicketPool - Ven1 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 46
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 44
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 39
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 38
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 114
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 111
+2025-01-20 11:10:36 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 110
+2025-01-20 11:10:37 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 109
+2025-01-20 11:10:37 WARN  org.example.server.model.TicketPool - ven3 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:37 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 44
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 38
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 37
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 107
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 102
+2025-01-20 11:10:38 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 101
+2025-01-20 11:10:39 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 97
+2025-01-20 11:10:39 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:39 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:40 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 48
+2025-01-20 11:10:40 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 45
+2025-01-20 11:10:40 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 43
+2025-01-20 11:10:40 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 42
+2025-01-20 11:10:40 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 96
+2025-01-20 11:10:40 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 92
+2025-01-20 11:10:40 WARN  org.example.server.model.TicketPool - Ven1 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:41 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 89
+2025-01-20 11:10:41 WARN  org.example.server.model.TicketPool - ven3 tried to add 2 tickets, but the pool is full.
+2025-01-20 11:10:41 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 45
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 42
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 38
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 35
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 86
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 82
+2025-01-20 11:10:42 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 78
+2025-01-20 11:10:43 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 74
+2025-01-20 11:10:43 WARN  org.example.server.model.TicketPool - ven3 tried to add 1 tickets, but the pool is full.
+2025-01-20 11:10:43 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 48
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - cus3 bought 4 tickets. Remaining pool: 44
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 40
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - cus1 bought 1 tickets. Remaining pool: 39
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 72
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - ven3 added 5 tickets. Remaining: 67
+2025-01-20 11:10:44 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 65
+2025-01-20 11:10:45 WARN  org.example.server.model.TicketPool - ven2 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:45 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:45 WARN  org.example.server.model.TicketPool - Ven1 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 47
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 42
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - cus4 bought 5 tickets. Remaining pool: 37
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - cus1 bought 2 tickets. Remaining pool: 35
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 63
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 59
+2025-01-20 11:10:46 INFO  org.example.server.model.TicketPool - Ven1 added 3 tickets. Remaining: 56
+2025-01-20 11:10:47 INFO  org.example.server.model.TicketPool - ven2 added 5 tickets. Remaining: 51
+2025-01-20 11:10:47 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:47 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:48 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:10:48 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 42
+2025-01-20 11:10:48 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 39
+2025-01-20 11:10:48 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 34
+2025-01-20 11:10:48 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 50
+2025-01-20 11:10:48 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 47
+2025-01-20 11:10:49 INFO  org.example.server.model.TicketPool - Ven1 added 1 tickets. Remaining: 46
+2025-01-20 11:10:49 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 45
+2025-01-20 11:10:49 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 41
+2025-01-20 11:10:50 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 36
+2025-01-20 11:10:50 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 47
+2025-01-20 11:10:50 INFO  org.example.server.model.TicketPool - cus3 bought 2 tickets. Remaining pool: 45
+2025-01-20 11:10:50 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 42
+2025-01-20 11:10:50 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 39
+2025-01-20 11:10:50 INFO  org.example.server.model.TicketPool - ven2 added 2 tickets. Remaining: 34
+2025-01-20 11:10:51 INFO  org.example.server.model.TicketPool - ven3 added 3 tickets. Remaining: 31
+2025-01-20 11:10:51 INFO  org.example.server.model.TicketPool - Ven1 added 2 tickets. Remaining: 29
+2025-01-20 11:10:51 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 26
+2025-01-20 11:10:52 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:52 WARN  org.example.server.model.TicketPool - Ven1 tried to add 3 tickets, but the pool is full.
+2025-01-20 11:10:52 INFO  org.example.server.model.TicketPool - cus2 bought 3 tickets. Remaining pool: 46
+2025-01-20 11:10:52 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 41
+2025-01-20 11:10:52 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 37
+2025-01-20 11:10:52 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 34
+2025-01-20 11:10:52 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 22
+2025-01-20 11:10:53 INFO  org.example.server.model.TicketPool - ven3 added 1 tickets. Remaining: 21
+2025-01-20 11:10:53 INFO  org.example.server.model.TicketPool - Ven1 added 5 tickets. Remaining: 16
+2025-01-20 11:10:54 INFO  org.example.server.model.TicketPool - ven2 added 4 tickets. Remaining: 12
+2025-01-20 11:10:54 WARN  org.example.server.model.TicketPool - ven3 tried to add 4 tickets, but the pool is full.
+2025-01-20 11:10:54 WARN  org.example.server.model.TicketPool - Ven1 tried to add 5 tickets, but the pool is full.
+2025-01-20 11:10:54 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 43
+2025-01-20 11:10:54 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 40
+2025-01-20 11:10:54 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 38
+2025-01-20 11:10:54 INFO  org.example.server.model.TicketPool - cus1 bought 5 tickets. Remaining pool: 33
+2025-01-20 11:10:55 INFO  org.example.server.model.TicketPool - ven2 added 3 tickets. Remaining: 9
+2025-01-20 11:10:55 INFO  org.example.server.model.TicketPool - Ven1 added 4 tickets. Remaining: 5
+2025-01-20 11:10:55 INFO  org.example.server.model.TicketPool - ven3 added 4 tickets. Remaining: 1
+2025-01-20 11:10:56 INFO  org.example.server.model.TicketPool - ven2 added 1 tickets. Remaining: 0
+2025-01-20 11:10:56 INFO  org.example.server.model.TicketPool - cus2 bought 1 tickets. Remaining pool: 44
+2025-01-20 11:10:56 INFO  org.example.server.model.TicketPool - cus3 bought 3 tickets. Remaining pool: 41
+2025-01-20 11:10:56 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 37
+2025-01-20 11:10:56 INFO  org.example.server.model.TicketPool - cus1 bought 4 tickets. Remaining pool: 33
+2025-01-20 11:10:58 INFO  org.example.server.model.TicketPool - cus2 bought 4 tickets. Remaining pool: 29
+2025-01-20 11:10:58 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 28
+2025-01-20 11:10:58 INFO  org.example.server.model.TicketPool - cus4 bought 2 tickets. Remaining pool: 26
+2025-01-20 11:10:58 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 23
+2025-01-20 11:11:00 INFO  org.example.server.model.TicketPool - cus2 bought 5 tickets. Remaining pool: 18
+2025-01-20 11:11:00 INFO  org.example.server.model.TicketPool - cus3 bought 5 tickets. Remaining pool: 13
+2025-01-20 11:11:00 INFO  org.example.server.model.TicketPool - cus4 bought 3 tickets. Remaining pool: 10
+2025-01-20 11:11:00 INFO  org.example.server.model.TicketPool - cus1 bought 3 tickets. Remaining pool: 7
+2025-01-20 11:11:02 INFO  org.example.server.model.TicketPool - cus2 bought 2 tickets. Remaining pool: 5
+2025-01-20 11:11:02 INFO  org.example.server.model.TicketPool - cus3 bought 1 tickets. Remaining pool: 4
+2025-01-20 11:11:02 INFO  org.example.server.model.TicketPool - cus4 bought 4 tickets. Remaining pool: 0
+2025-01-20 11:11:02 INFO  o.e.s.service.TicketSystemService - Vendors have released all tickets. Customers have bought all the tickets.
+2025-01-20 11:11:02 INFO  o.e.s.service.TicketSystemService - System stopped successfully.
+2025-01-20 15:07:29 INFO  o.example.server.ServerApplication - Starting ServerApplication using Java 17.0.13 with PID 39060 (D:\IIT\OOP CW\TicketingSystem\server\target\classes started by rangi in D:\IIT\OOP CW\TicketingSystem\server)
+2025-01-20 15:07:29 INFO  o.example.server.ServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-20 15:07:32 INFO  o.example.server.ServerApplication - Started ServerApplication in 3.268 seconds (process running for 4.445)
+2025-01-20 15:07:32 INFO  o.example.server.ServerApplication - System Initialized: Server is up and running.

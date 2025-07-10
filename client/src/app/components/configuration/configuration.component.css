@@ -1,0 +1,87 @@
+/* Increased spacing between Save, Load buttons, and User Configuration text */
+.button-container {
+  margin-top: 3vh; /* Existing top margin */
+  margin-bottom: 4vh; /* Extra space below the button group */
+  margin-left: 2vw; /* Left margin remains unchanged */
+  display: flex;
+  gap: 2vw; /* Horizontal space between buttons */
+}
+
+/* Add more space between + and - buttons for Vendor and Customer sections */
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 1vw; /* Increased gap between buttons (+, -) and input box */
+}
+
+/* Title and subheading styles remain the same */
+.ConfigTitle {
+  font-size: 2vw;
+  margin-top: 2vh; /* Space at the top remains unchanged */
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.ConfigInfo {
+  font-family: tahoma;
+  font-size: 1.2vw;
+  margin: 1vh 0 1vh 2vw; /* Vertical spacing for info text */
+  text-align: left;
+}
+
+/* Textbox styling */
+.TextBox {
+  height: 5vh;
+  padding-left: 2vh;
+  margin: 1vh 2vw; /* Margin for spacing */
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+  color: #333;
+  box-sizing: border-box;
+  font-size: 1vw;
+  width: 90%;
+}
+
+/* Button styling remains the same (with added space adjustments) */
+.btn {
+  padding: 1vh 2vw;
+  font-size: 1vw;
+  background-color: #007bff; /* Default blue for existing buttons */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.green-btn {
+  background-color: #28a745; /* Green for new Save and Load buttons */
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+#start-btn:hover,
+#end-btn:hover {
+  background-color: #0056b3; /* Dark blue for Start/End on hover */
+}
+
+.green-btn:hover {
+  background-color: #1e7e34; /* Dark green for Save/Load on hover */
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling specifically for the new buttons */
+.new-buttons {
+  margin-top: 4vh; /* Space above the new buttons */
+  margin-left: 2vw; /* Align with other button containers */
+  display: flex;
+  gap: 2vw; /* Space between the two buttons */
+}

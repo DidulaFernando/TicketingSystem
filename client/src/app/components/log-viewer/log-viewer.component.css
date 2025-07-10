@@ -1,0 +1,32 @@
+.log-viewer {
+  width: 90%;
+  height: 60vh;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  padding: 1vh 1vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2vw;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+.log-box {
+  padding: 1.2vh 2vw;
+  font-size: 0.8vw;
+  background-color: #ffffff;
+  border-left: 4px solid #ddd;
+}
+
+.vendor-log {
+  background-color: #defaf0;
+  color: #034d19;
+  border-left: 4px solid #28a745;
+}
+
+.customer-log {
+  background-color: #f9e7e7;
+  color: #7a1e1e;
+  border-left: 4px solid #dc3545;
+}

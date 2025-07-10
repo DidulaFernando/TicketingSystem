@@ -1,0 +1,95 @@
+<h2 class="ConfigTitle">Enter Configuration</h2>
+
+<div class="configuration-container">
+  <!-- Configuration Input Fields -->
+  <div class="config-input-section">
+    <h3 class="ConfigInfo">Total Number of Tickets:</h3>
+    <input
+      class="TextBox"
+      type="number"
+      name="totalTickets"
+      [(ngModel)]="totalTickets"
+      placeholder="Enter total tickets"
+    />
+
+    <h3 class="ConfigInfo">Ticket Release Rate:</h3>
+    <input
+      class="TextBox"
+      type="number"
+      name="ticketReleaseRate"
+      [(ngModel)]="ticketReleaseRate"
+      placeholder="Enter release rate"
+    />
+
+    <h3 class="ConfigInfo">Customer Retrieval Rate:</h3>
+    <input
+      class="TextBox"
+      type="number"
+      name="customerRetrievalRate"
+      [(ngModel)]="customerRetrievalRate"
+      placeholder="Enter retrieval rate"
+    />
+
+    <h3 class="ConfigInfo">Maximum Ticket Capacity:</h3>
+    <input
+      class="TextBox"
+      type="number"
+      name="maxTicketCapacity"
+      [(ngModel)]="maxTicketCapacity"
+      placeholder="Enter maximum capacity"
+    />
+  </div>
+
+  <!-- Start/End System Buttons -->
+  <div class="button-container">
+    <button class="btn" id="start-btn" (click)="startSystem()">Start System</button>
+    <button class="btn" id="end-btn" (click)="endSystem()">End System</button>
+  </div>
+
+  <!-- User Configuration Section -->
+  <h2 class="ConfigTitle">User Configuration</h2>
+  <div class="user-config-container">
+    <!-- Vendor Section -->
+    <div>
+      <h3 class="ConfigInfo">Vendors:</h3>
+      <div class="input-container">
+        <input
+          class="TextBox"
+          [(ngModel)]="vendorName"
+          placeholder="Enter Vendor Name"
+        />
+        <button class="btn" (click)="addVendor()">+</button>
+        <button class="btn" (click)="removeVendor()">-</button>
+      </div>
+      <ul class="item-list">
+        <li *ngFor="let vendor of vendors">{{ vendor }}</li>
+      </ul>
+    </div>
+
+    <!-- Customer Section -->
+    <div>
+      <h3 class="ConfigInfo">Customers:</h3>
+      <div class="input-container">
+        <input
+          class="TextBox"
+          [(ngModel)]="customerName"
+          placeholder="Enter Customer Name"
+        />
+        <button class="btn" (click)="addCustomer()">+</button>
+        <button class="btn" (click)="removeCustomer()">-</button>
+      </div>
+      <ul class="item-list">
+        <li *ngFor="let customer of customers">{{ customer }}</li>
+      </ul>
+    </div>
+    <!-- Add new buttons at the end -->
+    <div class="button-container new-buttons">
+      <button class="btn green-btn" id="new-save-btn" (click)="newSaveConfiguration()">
+        New Save Config
+      </button>
+      <button class="btn green-btn" id="new-load-btn" (click)="newLoadConfiguration()">
+        New Load Config
+      </button>
+    </div>
+  </div>
+</div>

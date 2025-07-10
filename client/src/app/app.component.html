@@ -1,0 +1,22 @@
+<h1 class="header">Realtime Ticketing System</h1>
+
+<!-- Top Row Container -->
+<div class="container">
+  <!-- Expanded Configuration Component -->
+  <div class="box configuration-box">
+    <app-configuration
+      [hasStarted]="hasStarted"
+      (toggleSystemState)="toggleSystemState()">
+    </app-configuration>
+  </div>
+
+  <!-- Live Update Component -->
+  <div class="box">
+    <app-live-update [hasStarted]="hasStarted"></app-live-update>
+  </div>
+
+  <!-- Log Viewer Component -->
+  <div class="box">
+    <app-log-viewer></app-log-viewer>
+  </div>
+</div>

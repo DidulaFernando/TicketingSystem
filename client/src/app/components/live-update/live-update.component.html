@@ -1,0 +1,30 @@
+<div class="live-update">
+  <h2>Live Updates</h2>
+  <table>
+    <tr>
+      <th>Total Tickets Purchased</th>
+      <th>Total Tickets Released</th>
+    </tr>
+    <tr>
+      <td>{{ totalTicketsPurchased }}</td>
+      <td>{{ totalTicketsReleased }}</td>
+    </tr>
+  </table>
+
+  <div class="chart-container">
+    <ngx-charts-line-chart
+      [view]="chartDimensions"
+      [scheme]="colorScheme"
+      [results]="timeSeriesChartData"
+      [xAxis]="true"
+      [yAxis]="true"
+      [legend]="true"
+      [showXAxisLabel]="true"
+      [xAxisLabel]="'Time'"
+      [showYAxisLabel]="true"
+      [yAxisLabel]="'Tickets'"
+      [curve]="curve"
+      [autoScale]="true">
+    </ngx-charts-line-chart>
+  </div>
+</div>
